@@ -27,7 +27,7 @@ export default class App extends React.Component {
 
   scratchItem = (itemNumber) =>{
     if(this.state.chancesLeft===0){
-      Alert.alert("Sorry!You are unlucky\nClick on reset or show All")
+      Alert.alert("Sorry!!You are unlucky\nClick on reset or show All")
     }
     else if(this.state.randomNumber===itemNumber){
       itemArray[itemNumber]="lucky"
